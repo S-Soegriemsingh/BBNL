@@ -14,6 +14,20 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+
+/* Fonts
+-------------------------------------------------- */
+
+@font-face{
+font-family: Asap;
+src: url(fonts/Asap-Bold.otf);
+}
+
+@font-face{
+font-family: ProximaNova;
+src: url(fonts/ProximaNova-Light.otf);
+}
+
 /* Global
 -------------------------------------------------- */
 
@@ -69,7 +83,11 @@ header h1{
 	clear: left;
 	min-height: 500px;
 	width: 62.5%;
-	border: #000 solid 1px;
+ 	background-color: #334c60;
+ 	border-radius: 5px;
+	margin-bottom: 2%;
+  	font-family: 'ProximaNova';
+  	color: #FFF;
 }
 
 /* Navigation
@@ -79,7 +97,7 @@ header h1{
 .bottomnav{
 	clear: left;
 	height: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 2%;
 }
 
 .topnav ul,
@@ -133,6 +151,48 @@ header h1{
 	padding: 12px 0;
 	font-family: Asap;
 	font-size: 22px;
+}
+
+nav {
+	float: right;
+	width: 25%;
+	margin-top: -15px;
+}
+
+nav ul {
+  	width: 100%;
+  	padding-left: 0;
+}
+
+nav li {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #334c60;
+	border-top: 10px solid #737373;
+	margin-bottom: 5%;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #FFF;
+	height: 100%;
+	width: 100%;
+	display: block;
+	padding: 12px 0;
+	font-family: 'Asap', sans-serif;
+	font-size: 22px;
+}
+
+nav li:nth-child(2) {
+	background-color: #dd533f;
+}
+
+nav li:nth-child(3) {
+	background-color: #1e8ece;
 }
 
 /* Footer

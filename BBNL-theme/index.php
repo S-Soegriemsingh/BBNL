@@ -18,9 +18,9 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href='#'>Nederland</a></li>
-					<li><a href='#'>Barendrecht</a></li>
-					<li><a href='#'>Oud-Beijerland</a></li>
+					<li><a href='index.php'>Nederland</a></li>
+					<li><a href='barendrecht'>Barendrecht</a></li>
+					<li><a href='oud-beijerland'>Oud-Beijerland</a></li>
 				</ul>
 			</nav>
 			<div class='bottomnav'>				
